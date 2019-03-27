@@ -1,0 +1,210 @@
+/*---------------main-about---------------------*/
+.main-photo-about{
+	height: 50vh;
+	min-height: 150px;
+	line-height: 50vh;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	background-size: cover;
+}
+.main-photo-about-shadow {
+	width: 100%;
+	height: 100%;
+	background: rgba(10,61,165,0.8);
+}
+.logo-about{
+	max-width: 80%;
+}
+/*----------------main-about-end--------------------*/
+/*----------------descr-about--------------------*/
+.description-about{
+	background: #000;
+}
+.description-about-content{
+	color:#fff;
+	font-size: 15px;
+	margin-top: 65px;
+	margin-bottom:65px;
+}
+/*----------------descr-about-end--------------------*/
+/*----------------descr-about-block--------------------*/
+.descript-block-white{
+}
+		.descript-block-white .h2{
+			color: #000;
+			text-transform: uppercase;
+			font-size: 25px;
+			margin:15px 0;
+		}
+.descript-block-white-center{
+	margin-top: 80px;
+	margin-bottom: 30px;
+	text-align: center;
+}		
+		.descript-block-white-center .h2{
+			color: #000;
+			text-transform: uppercase;
+			font-size: 25px;
+			margin:15px 0;
+		}
+/*----------------descr-about-block-end-------------------*/
+.timelapp-vrt{
+		display: none;
+		max-width: 100%;
+		height: auto;
+		margin: 0 auto;
+}
+.timelapp-hrz{
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 0 auto;
+
+}
+/*-----------------------leader------------------------*/
+.leader{
+	margin-bottom: 200px;
+}
+.leader-content{
+	background:#e3e3e3;
+	text-transform: uppercase;
+	text-align: right;
+	padding: 30px;
+	position: relative;
+}
+.leader-content .h4{
+	font-size: 21px;
+	font-family: 'Stolzl-Medium';
+}
+.leader-person{
+	position: relative;
+}
+.leader-person img{
+	position: absolute;
+	right: 0;
+	top: -150px;
+	filter: grayscale(15%);
+}
+
+
+
+.leader-content-women{
+	background:#e3e3e3;
+	text-transform: uppercase;
+	padding: 30px;
+	margin-top: 150px;
+}
+.leader-content-women .h4{
+	font-size: 21px;
+	font-family: 'Stolzl-Medium';
+}
+.leader-person-women{
+	position: relative;
+}
+.leader-person-women img{
+	position: absolute;
+	top: -150px;
+	left: 0;
+	filter: grayscale(15%);
+}
+/*-----------------------leader-end------------------------*/
+/*-----------------------Stolzl-Bold------------------------*/
+p.bld{
+	font-family: 'Stolzl-Bold';
+}
+/*-----------------------Stolzl-Bold-End-----------------------*/
+@media screen and (max-width: 930px) {
+
+}
+@media screen and (max-width: 767px) {
+		.leader-person img{
+			position: static;
+			max-height: 300px;
+		}
+		.leader-person-women img{
+			position: static;
+			max-height: 300px;
+		}
+		.leader-content{
+			text-align:center;
+		}
+		.leader-content div.h4{
+			margin-top: 30px;
+		}
+		.leader-content-women{
+			text-align: center;
+		}
+		.leader-content-women div.h4{
+			margin-top: 30px;
+		}
+		.leader{
+			margin-bottom: 40px;
+		}
+		.leader-content-women{
+			margin-top: 30px;
+		}
+	}
+@media screen and (max-width: 640px) {
+			
+ }
+@media screen and (max-width: 500px) {
+		.about-time{
+			margin-bottom: 40px;
+		}
+		.leader{
+			margin-top: 0px;
+		}
+		.descript-block-white-center{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		.descript-block-white-center .h2{
+			font-size: 16px;
+		}
+		.descript-block-white .h2{
+			font-size: 16px;
+		}	
+		.timelapp-vrt{
+		display: block;
+		}
+		.timelapp-hrz{
+			display: none;
+		}	
+			
+ }
+@media screen and (max-width: 425px) {
+		
+		.about-text{
+			margin-bottom: 50px;
+		}
+
+ }
+@media screen and (max-height: 150px;){
+	.main-photo-about{
+		line-height: 150px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

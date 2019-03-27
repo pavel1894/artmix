@@ -1,0 +1,310 @@
+/*-----------------main-black-news------------------*/
+.main-black-news{
+	height: 25vh;
+	min-height: 200px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	background: #000;
+}
+	.container-for-head-news{
+	    padding-right: 30px;
+	    padding-left: 30px;
+	    margin-right: auto;
+	    margin-left: auto;
+	    max-width: 1700px;
+	}
+	.main-black-news-content{
+		position: absolute;
+		bottom: 0;
+	}
+	.main-black-news-content p{
+		font-family: 'Stolzl-Thin';
+		font-size: 62px;
+		color: #fff;
+		text-transform: uppercase;
+		margin-bottom: 0px;
+		color: #fff;
+	}
+/*-----------------main-black-news-end-----------------*/		
+/*---------------------main-newsl;--------------------*/
+.banner-big {
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.photo-main-descript-newsl{
+	width: 50%;
+	height: 694px;
+	background-size: cover;
+	float: left;
+}
+.photo-main-descript-newsl-1{
+}
+.photo-main-descript-newsl-2{
+}
+.descr-main-descript-newsl{
+	width: 50%;
+	height: 694px;
+	float: right;
+	line-height: 694px;
+}
+		.descr-main-descript-newsl-cont{
+			max-width: 585px;
+			line-height: normal;
+			display: inline-block;
+			vertical-align: middle;
+		}
+			.descr-main-descript-newsl-cont-padding{
+				padding: 20px 20px 20px 70px;
+			}
+			.main-descriptr-newsl-text{
+				margin-top: 40px;
+			}
+		.main-descript-newsl .h3{
+			font-size: 30px;
+			color: #31549c;
+			padding:10px 0px 20px 0px;
+			text-transform: uppercase;
+		}
+		.main-descript-newsl .h4{
+			font-size: 22px;
+			padding:17px 0px;
+			text-transform: uppercase;
+		}
+		.main-descript-newsl p{
+			font-size: 14px;
+		}
+			.main-descript-newsl ul li{
+				list-style: disc inside;
+			}
+/*-----------------main-newsl-end-------------*/
+/*-----------------main-newsr-----------------*/
+.banner-big {
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.photo-main-descript-newsr{
+	width: 50%;
+	height: 694px;
+	background-size: cover;
+	float: right;
+}
+.photo-main-descript-newsr-1{
+	background-size: cover;
+}
+.photo-main-descript-newsr-2{
+	background-size: cover;
+
+}
+.descr-main-descript-newsr{
+	width: 50%;
+	height: 694px;
+	float: left;
+	text-align: right;
+	line-height: 694px;
+}
+		.descr-main-descript-newsr-cont{
+			max-width: 585px;
+			line-height: normal;
+			display: inline-block;
+			vertical-align: middle;
+		}
+			.descr-main-descript-newsr-cont-padding{
+				padding: 20px 70px 20px 20px;
+			}
+			.main-descript-newsr-text{
+				margin-top: 40px;
+			}
+		.main-descript-newsr .h3{
+			font-size: 30px;
+			color: #31549c;
+			padding:10px 0px 20px 0px;
+			text-transform: uppercase;
+		}
+		.main-descript-newsr .h4{
+			font-size: 22px;
+			padding:17px 0px;
+			text-transform: uppercase;
+		}
+		.main-descript-newsr p{
+			font-size: 14px;
+		}
+			.main-descript-newsr ul{
+				direction: rtl;
+			}
+			.main-descript-newsr ul li{
+				list-style: disc inside;
+			}
+/*-----------------main-descriptr-newsr-end--------------*/
+button.main-button-news{
+			padding: 15px 50px;
+			background: none;
+			border: 1px solid #000;
+			margin-top: 30px;
+			font-size: 30px;
+			color: #000;
+			text-transform: uppercase;
+			transition: 0.3s ease;
+			margin-left: 0px;
+			margin-right: 0px;
+	}
+				button.main-button-news:hover{
+						border: 1px solid #000;
+						color: #fff;
+						background: rgba(0,0,0,1);
+				}
+/*-----------------------MEDIA----------------------*/
+ @media screen and (max-width: 1240px) {
+		.descr-main-descript-newsr-cont-padding {
+		    padding: 10px 40px 10px 10px;
+		}
+		.descr-main-descript-newsl-cont-padding {
+		    padding: 10px 10px 10px 40px;
+		}
+		.main-descript-newsr .h4 {
+		    padding: 5px 0px;
+		}
+		.main-descript-newsl .h4 {
+		    padding: 5px 0px;
+		}
+}
+
+@media screen and (max-width: 897px) {
+		.descr-main-descript-newsr-cont-padding {
+		    padding: 10px 10px 40px 10px;
+		}
+		.descr-main-descript-newsl-cont-padding {
+		    padding: 10px 10px 40px 10px;
+		}
+		.descr-main-descript-newsr{
+			width: 100%;
+			float: none;
+			text-align:left;
+			height: auto;
+			line-height: normal;
+		}
+					.descr-main-descript-newsr-cont{
+						float: none;
+						width: 90%;
+						margin: 0 auto;
+					    display: block;
+					}
+					.main-descript-srvr ul {
+					    direction: ltr;
+					}
+		.descr-main-descript-newsl{
+			width: 100%;
+			float: none;
+			height: auto;
+			line-height: normal;
+		}
+					.descr-main-descript-newsl-cont{
+						float: none;
+						width: 90%;
+						margin: 0 auto;
+						display: block;
+					}
+		.photo-main-descript-newsr{
+			width: 100%;
+			float: none;
+			height: 450px;
+		}
+		.photo-main-descript-newsl{
+			width: 100%;
+			float: none;
+			height: 450px;
+		}
+
+}		
+@media screen and (max-width: 840px) {
+        .main-black-news-content p{
+			font-size: 40px;
+		}
+ }
+
+
+@media screen and (max-width: 500px) {
+		.descr-main-descript-newsr-cont-padding {
+		    padding: 10px 10px 20px 10px;
+		}
+		.descr-main-descript-newsl-cont-padding {
+		    padding: 10px 10px 20px 10px;
+		}
+		.photo-main-descript-newsr{
+			height: 300px;
+		}
+		.photo-main-descript-newsl{
+			height: 300px;
+		}
+		.main-black-news-content p{
+			font-size: 25px;
+		}
+		.main-descript-newsl .h4 {
+		    font-size: 16px;
+		}
+		.main-descript-newsl .h3 {
+		    font-size: 18px;
+		    margin:0 0;
+ 		    padding: 20px 0 10px 0;
+		}
+		.main-descript-newsr .h4 {
+		    font-size: 16px;
+		}
+		.main-descript-newsr .h3 {
+		    font-size: 18px;
+		    margin:0 0;
+ 		    padding: 20px 0 10px 0;
+		}
+		button.main-button-news{
+			padding: 10px 30px;
+			background: none;
+			border: 1px solid #000;
+			margin-top: 30px;
+			font-size: 18px;
+			color: #000;
+			text-transform: uppercase;
+			transition: 0.3s ease;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+				
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

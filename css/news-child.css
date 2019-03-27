@@ -1,0 +1,47 @@
+/*------------------main-----------------*/
+.news-back{
+	background: url(../img/news/child/news-back.jpg);
+	background-size: cover;
+}
+		.main-news-content{
+			width: 100%;
+			margin: 0 auto;
+			line-height: normal;
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 auto;
+			padding-top: 40px;
+		}
+		.main-news-content p{
+			background: #000;
+			font-family: 'Stolzl-Medium';
+			padding: 20px;
+			display: inline-block;
+			font-size: 30px;
+			color: #fff;
+
+		}
+		.main-news-content p.date{
+			font-size: 16px;
+			color: #fff;
+			display: inline-block;
+		}
+.news-img{
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 600px) {
+        .main-news-content p{
+			font-size: 18px;
+			
+
+		}
+		.main-news-content p.date{
+			font-size: 15px;
+
+		}
+		.news-child-text{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+}

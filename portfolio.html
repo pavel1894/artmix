@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>
+		ARTMIX | Портфолио
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/services.css">	
+	<link rel="stylesheet" href="css/news.css">	
+	<link rel="stylesheet" href="css/news-child.css">
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+	<div class="wrap">
+			<div id="myModal" class="modal fade" tabindex="-1">
+					<div class="modal-dialog" >
+							<div class="modal-content">
+									<div class="modal-header">
+										<div class="clearfix">
+											<div class="h3">заполните бриф</div>
+											<button  data-dismiss="modal"><i class="fas fa-times"></i></button>
+										</div>	
+									</div>
+									<div class="modal-body">
+										<div class="form-group">
+										    <label>Как к Вам обращатсья?</label>
+										    <input type="text" class="form-control">
+										</div>
+										<div class="form-group">
+										    <label>Телефон для связи:</label>
+										    <input type="tel" class="form-control">
+										</div>
+										<div class="form-group">
+										    <label>Email</label>
+										    <input type="email" class="form-control">
+										</div>
+										<div class="form-group">
+										    <label>Комментарии:</label>
+										    <input type="text" class="form-control">
+										</div>
+
+			
+									</div>
+									<div class="modal-footer text-center">
+										<button type="button">Заказать</button>
+										<div class="h4 text-center">СПАСИБО ЧТО ОСТАВИЛИ ЗАЯВКУ 
+											В БЛИЖАЙШЕЕ ВРЕМЯ С ВАМИ СВЯЖЕТЬСЯ МЕНЕДЖЕР КОМПАНИИ
+										</div>
+									</div>
+							</div>
+					</div>
+			</div>
+		<header>
+			<nav class="navbar header navbar-fixed-top">
+					<div class="container-header">
+							<div class="navbar-header ">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-another">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<a href="#" class="navbar-brand"><img src="img/logo.svg" alt=""></a>
+							</div>
+							<div class="social-header">
+										<a href="#"><i class="fab fa-vk"></i></a>
+							     		<a href="#"><i class="fab fa-instagram"></i></a>
+							     		<a href="#"><i class="fab fa-youtube"></i></a>
+							     		<a href="#"><i class="fab fa-facebook-f"></i></a>
+									</div>
+							<div class="navbar-collapse-another collapse">
+								<ul class="navbar-nav nav navbar-right low-scroll">
+									<li class="active"><a href="tel:+375293600600">(29)3-600-600</a></li>
+									<li class="active"><a href="#">Портфолио</a></li>
+									<li class="active"><a href="#" data-toggle="modal" data-target="#myModal">Заказать</a></li>
+									<li class="active"><a href="#news">Новости</a></li>
+									<li class="active"><a href="#offer">Услуги</a></li>
+									<li class="active"><a href="#about">О нас</a></li>
+									<li class="active"><a href="#">Вакансии</a></li>
+									<li class="active"><a href="#contact">Контакты</a></li>
+								</ul>	
+							</div>
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav navbar-right low-scroll">
+									<li class="active"><a href="#">Портфолио</a></li>
+									<li class="active"><a href="#" data-toggle="modal" data-target="#myModal">Заказать</a></li>
+									<li class="active"><a href="#news">Новости</a></li>
+									<li class="active"><a href="#about">О нас</a></li>
+									<li class="active"><a href="tel:+375293600600">(29)3-600-600</a></li>
+									<li class="active">
+										<div class='drop-menu low-scroll'>
+											<button class="c-hamburger c-hamburger--htx menu_btn">
+												<span></span>
+											</button>
+											<ul class='nav-second'>
+												<li><a href="#offer">Услуги</a></li>
+											  	<li><a href="#">Вакансии</a></li>
+											  	<li><a href="#contact">Контакты</a></li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+					</div>
+			</nav>
+		</header>
+		<section class="main-black-portfolio">
+					<div class="main-black-portfolio-content controls">
+							<a href="#" class="filter" data-filter="all">Все</a>
+							<a href="#" class="filter" data-filter=".cutaway">новогодний корпоратив</a>
+							<a href="#" class="filter" data-filter=".corporative">специальный проект</a>
+							<a href="#" class="filter" data-filter=".portfolio">клиентский приём</a>
+							<a href="#" class="filter" data-filter=".cutaway">конференции / семинары</a>
+							<a href="#" class="filter" data-filter=".corporative">hr-camp</a>
+							<a href="#" class="filter" data-filter=".portfolio">клуб корпораций</a>
+							<a href="#" class="filter" data-filter=".cutaway">family day</a>
+							<a href="#" class="filter" data-filter=".corporative">event</a>
+							<a href="#" class="filter" data-filter=".portfolio">marketing</a>
+							<a href="#" class="filter" data-filter=".cutaway">teambuilding</a>
+							<a href="#"	class="filter" data-filter=".corporative">3d mapping</a>
+							<a href="#" class="filter" data-filter=".portfolio">mice</a>
+
+					</div>
+		</section>	
+
+	<div class="portfolio-grid clearfix" id="vyborka">
+			    <article class="portfolio-item portfolio mix" href="img/news/camp.jpg" class="lightbox" data-fancybox="group">
+				        <div class="keramin" style="background-image: url(img/portfolio/keramindress.jpg);">
+						        <div class="portfolio-item-shadow">
+						           <p><span class="h3">ПЛАТЬЕ В СТИЛЕ «КЕРАМИН»</span><br>
+						           Показ новой коллекции платьев Керамин</p>
+						        </div>   
+				        </div>
+			    </article>
+			    <article class="portfolio-item cutaway mix" href="img/news/invite.jpg" class="lightbox" data-fancybox="group">
+			        <div class="teambuild" style="background-image: url(img/portfolio/teambuild.jpg);">
+			        	<div class="portfolio-item-shadow">
+				            <p><span class="h3">
+				            	«Физкульт –привет от компании Пан-Инвест!»
+				            	</span><br>
+				            тимбилдинг Пан-Инвест
+				            </p>
+				        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item cutaway mix" href="img/news/meet.jpg" class="lightbox" data-fancybox="group">
+			        <div class="mts" style="background-image: url(img/portfolio/mts.jpg);">
+					        <div class="portfolio-item-shadow" >
+					           <p><span class="h3">
+					            	Красная планета МТС
+								   </span><br>
+					            Новогоднее мероприятие на другой планете МТС
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item corporative mix" href="img/news/team.jpg" class="lightbox" data-fancybox="group">
+			        <div class="buslik" style="background-image: url(img/portfolio/buslik.jpg);">
+					        <div class="portfolio-item-shadow">
+					           <p><span class="h3">
+					            	 Детям позволено всё!
+					            	</span><br>
+					            Юбилей. 15 лет работы на рынке Буслик
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item portfolio mix" href="img/news/camp.jpg" class="lightbox" data-fancybox="group">
+			        <div class="football" style="background-image: url(img/portfolio/football.jpg);">
+					        <div class="portfolio-item-shadow">
+					            <p><span class="h3">
+					            	 Football BATTle
+					                </span><br>
+					           	корпоративный футбольный турнир British American Tobacco
+					           	</p>
+					        </div>   	
+			        </div>
+			    </article>
+			    <article class="portfolio-item cutaway mix"  href="img/news/invite.jpg" class="lightbox" data-fancybox="group">
+			        <div class="ninja" style="background-image: url(img/portfolio/ninja.jpg);">
+					        <div class="portfolio-item-shadow">
+					            <p><span class="h3">
+					            	Школа Ниндзя
+					                </span><br>
+					            мультиформатный тимбилдинг на природе Альфа-банк
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item corporative mix" href="img/news/meet.jpg" class="lightbox" data-fancybox="group">
+			        <div class="huawei" style="background-image: url(img/portfolio/huawei.jpg);">
+					        <div class="portfolio-item-shadow">
+					            <p><span class="h3">
+					            	Весёлый праздник весны-2016
+					           		</span><br>
+					            колоритный клиентский приём Huawei
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item portfolio mix" href="img/news/team.jpg" class="lightbox" data-fancybox="group">
+			        <div class="alfaspace" style="background-image: url(img/portfolio/alfaspace.jpg);">
+					        <div class="portfolio-item-shadow">
+					            <p><span class="h3">
+					            	Альфа-Космос
+					            	</span><br>
+								Новогодний корпоратив в космОСЕ Альфа-банк
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item cutaway mix" href="img/news/camp.jpg" class="lightbox" data-fancybox="group">
+			        <div class="issoft" style="background-image: url(img/portfolio/issoft.jpg);">
+					        <div class="portfolio-item-shadow">
+					            <p><span class="h3">
+					            	Лето, солнце, Бульбашъ пляж
+					            	</span><br>
+					            корпоративное мероприятие IsSoft
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item corporative mix" href="img/news/invite.jpg" class="lightbox" data-fancybox="group">
+			        <div class="conference" style="background-image: url(img/portfolio/conference.jpg);">
+					        <div class="portfolio-item-shadow">
+					            <p><span class="h3">
+					            	В ритме времени
+					            	</span><br>
+					            Конференция руководящего состава ЗАО «Альфа-банк»
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item portfolio mix" href="img/news/meet.jpg" class="lightbox" data-fancybox="group">
+			        <div class="belweb" style="background-image: url(img/portfolio/belweb.jpg);">
+					        <div class="portfolio-item-shadow">
+					            <p><span class="h3">
+					            	25 лет банку Белвэб
+					            	</span><br>
+					            церемония награждения клиентов БелВЭБ
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item cutaway mix" href="img/news/team.jpg" class="lightbox" data-fancybox="group">
+			        <div class="panzer" style="background-image: url(img/portfolio/panzer.jpg);">
+					        <div class="portfolio-item-shadow">
+					            <p><span class="h3">
+					            	Команда «А»
+					            	</span><br>
+					            яркий трёхдневный турслёт Альфа-банк
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item corporative mix"  href="img/news/camp.jpg" class="lightbox" data-fancybox="group">
+			        <div class="korporat" style="background-image: url(img/portfolio/korporat.jpg);">
+					        <div class="portfolio-item-shadow">
+					            <p><span class="h3">
+					            	Старт Клуба Корпораций!
+					            	</span><br>
+					            первое закрытое заседание Клуб Корпораций
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item portfolio mix" href="img/news/invite.jpg" class="lightbox" data-fancybox="group">
+			        <div class="alisa" style="background-image: url(img/portfolio/alisa.jpg);">
+					        <div class="portfolio-item-shadow" >
+					            <p><span class="h3">
+					            	В стране чудес
+					            	</span><br>
+					            Новогодний тематический  корпорати IsSoft
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item cutaway mix" href="img/news/meet.jpg" class="lightbox" data-fancybox="group">
+			        <div class="shelk" style="background-image: url(img/portfolio/shelk.jpg);">
+					        <div class="portfolio-item-shadow">
+					            <p><span class="h3">
+					            	Любовь к шёлковому пути как Цветочный дождь
+					            	</span><br>
+					            клиентскИЙ приём Huawei
+					            </p>
+					        </div>    
+			        </div>
+			    </article>
+			    <article class="portfolio-item corporative mix" href="img/news/team.jpg" class="lightbox" data-fancybox="group">
+			        <div class="beauty" style="background-image: url(img/portfolio/beauty.jpg);">
+					        <div class="portfolio-item-shadow" >
+					            <p><span class="h3">
+					            	 50 лет красоты и успеха!
+					            	</span><br>
+					            грандиозный юбилей компании Орифлейм
+					            </p>
+					        </div>
+			        </div>
+			    </article>  
+		</div>
+
+		<footer>
+				<div class="footer-wrap">
+					<div class="row">
+						     <div class="col-md-5">
+						     		<div class="row" >
+						     			<div class="col-md-4 ">
+						     				<a href="#"><img src="img/artmix-footer.png" class="img-responsive center-block" alt=""></a>
+						     			</div>
+						     			<div class="col-md-8 mt-2">
+						     				<p>© 2001 — 2018 ООО «АРТ-МИКС групп» <br> 
+												Организация и проведение корпоративных,
+												маркетинговых и деловых мероприятий</p>
+						     			</div>
+						     		</div>
+						     </div>
+						     <div class="col-md-2 text-center social mt-5 mb-3">
+						     		<a href=""><i class="fab fa-vk"></i></a>
+						     		<a href=""><i class="fab fa-instagram"></i></a>
+						     		<a href=""><i class="fab fa-youtube"></i></a>
+						     		<a href=""><i class="fab fa-facebook-f"></i></a>
+						     </div>
+					</div>
+				</div>	
+		</footer>
+
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/swiper.min.js"></script>    
+	<script src="js/custom.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+		(function($){
+			$(document).ready(function(){
+				$(".lightbox").fancybox({
+
+				});
+			});
+
+		})(jQuery)
+	</script>
+	<script>
+		$(function(){
+			$('#vyborka').mixItUp({
+
+			});
+		});
+	</script>
+	
+	
+
+	
+</body>
+</html>
